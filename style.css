@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+* {
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 77, 74);
+    overflow-y: scroll;
+
+
+    background-image: linear-gradient(111.1deg, rgba(0, 40, 70, 1) -4.8%, rgba(255, 115, 115, 1) 82.7%, rgba(255, 175, 123, 1) 97.2%);
+}
+
+.Main {
+    background-color: white;
+    padding: 20px;
+    /* border: 2px solid black; */
+    width: fit-content;
+    overflow: scroll;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 36px;
+    background-color: #59c1bd;
+    box-shadow: 6px 6px 25px black;
+
+}
+
+header {
+    text-align: center;
+    padding: 15px;
+}
+
+.inp {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+#Inp_date {
+    padding: 6px;
+    margin-right: 10px;
+    border-radius: 9px;
+    border-style: none;
+    /* text-size: 22px; */
+    font-size: 18px;
+}
+
+#btn {
+    padding: 3px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: x-large;
+    background-color: #a0e4cb;
+    border-radius: 50%;
+    font-size: 35px;
+    box-shadow: 6px 6px 25px black;
+    padding: 8px;
+    /* transform: ; */
+}
+
+#btn:hover {
+    transform: rotate(45deg);
+}
+
+.opt {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 17px;
+
+}
+
+.opt div {
+    /* border: 2px solid black; */
+    padding: 7px;
+    margin: 6px;
+    font-size: smaller;
+    border-radius: 13px;
+    box-shadow: 4px 3px black;
+    background-color: #a0e4cb;
+    box-shadow: 6px 6px 25px black;
+}
+
+.opt div h3 {
+    margin-top: 7px;
+
+}
+
+footer {
+    text-align: center;
+}
