@@ -76,6 +76,7 @@ header {
 #btn:active,#btn:focus{
     text-decoration: none;
     border-style: none;
+    border: none;
     user-select: none;
     outline: none;
 }
