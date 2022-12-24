@@ -27,7 +27,7 @@ section {
     padding: 20px;
     /* border: 2px solid black; */
     width: fit-content;
-    overflow: scroll;
+    overflow: hidden;
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 36px;
@@ -70,9 +70,9 @@ header {
     /* transform: ; */
 }
 
-#btn:hover {
+/* #btn:hover {
     transform: rotate(45deg);
-}
+} */
 #btn:active{
     text-decoration: none;
     border-style: none;
