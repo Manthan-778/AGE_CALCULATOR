@@ -9,7 +9,13 @@
     font-family: Raleway, sans-serif;
 
 }
-
+.material-symbols-outlined:active{
+    text-decoration: none;
+    border-style: none;
+    border: none;
+    user-select: none;
+    outline: none;
+}
 section {
     width: 100vw;
     height: 100vh;
