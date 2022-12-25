@@ -9,7 +9,7 @@
     font-family: Raleway, sans-serif;
 
 }
-.material-symbols-outlined:active{
+.material-symbols-outlined:active,.material-symbols-outlined:focus{
     text-decoration: none;
     border-style: none;
     border: none;
