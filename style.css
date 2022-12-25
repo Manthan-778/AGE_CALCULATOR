@@ -79,7 +79,7 @@ header {
 /* #btn:hover {
     transform: rotate(45deg);
 } */
-#btn:active,#btn:focus{
+#btn:active,#btn:focus,#btn:focus:active{
     text-decoration: none;
     border-style: none;
     border: none;
