@@ -79,15 +79,16 @@ header {
     /* transform: ; */
 }
 
-/* #btn:hover {
-    transform: rotate(45deg);
-} */
+
 #btn:active,#btn:focus,#btn:focus:active,#btn:hover{
     text-decoration: none;
     border-style: none;
     user-select: none;
     outline: none;
     cursor: default;
+}
+#btn:hover ,#btn:active{
+    color:red
 }
 .opt {
     display: flex;
