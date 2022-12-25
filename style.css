@@ -85,7 +85,7 @@ header {
     border-style: none;
     border: none;
     user-select: none;
-    outline: 0;
+    outline-style: none;
     background-image: none;
     box-shadow: none;
     cursor: default;
