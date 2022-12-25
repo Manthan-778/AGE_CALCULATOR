@@ -67,27 +67,26 @@ header {
     padding: 3px;
     background: none;
     border: none;
-    cursor: pointer;
+    cursor: default;
+    /* cursor: pointer; */
     font-size: x-large;
     background-color: #a0e4cb;
     border-radius: 50%;
     font-size: 35px;
     box-shadow: 6px 6px 25px black;
     padding: 8px;
+
     /* transform: ; */
 }
 
 /* #btn:hover {
     transform: rotate(45deg);
 } */
-#btn:active,#btn:focus,#btn:focus:active{
+#btn:active,#btn:focus,#btn:focus:active,#btn:hover{
     text-decoration: none;
     border-style: none;
-    border: none;
     user-select: none;
-    outline-style: none;
-    background-image: none;
-    box-shadow: none;
+    outline: none;
     cursor: default;
 }
 .opt {
